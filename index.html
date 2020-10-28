@@ -1,11 +1,11 @@
 <title>Free Cuboid Volume Calculator</title>
 <link rel='shortcut icon' href="https://lh3.googleusercontent.com/voddDVgIX_n86yj-eyVfdgmLH51cBhexCi4nA0xJFdE3xGFoQpuOxPl2_2XqdVi6qA">
 <h1>Cuboid Volume Calculator</h1>
-Length: <input id="l" placeholder="Length">
+Length: <input id="l" type="number" placeholder="Length">
 <div>
-Breadth: <input id="b" placeholder="Breadth">
+Breadth: <input id="b" type="number" placeholder="Breadth">
   <div>
-Height <input id="h" placeholder="Height">
+Height <input id="h" type="number" placeholder="Height">
     <div id="12">
       <button id="calc" onclick="calc()">Calculate</button>
       <label id="ans">
@@ -15,6 +15,6 @@ Height <input id="h" placeholder="Height">
   var i = Number(document.getElementById("l").value) * 
 Number(document.getElementById("b").value) * 
 Number(document.getElementById("h").value);
-  window.alert("Volume=" + i + " cube metres") 
+  window.alert("Volume=" + i + " cube units") 
 }
         </script>
